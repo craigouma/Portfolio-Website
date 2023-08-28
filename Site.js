@@ -29,11 +29,3 @@ ScrollReveal().reveal('.home-content h1, .about img', { origin:'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin:'right' });
 
 
-const typed = new typed('.multiple-text',
-{
-    strings: ['Full-Stack Web Developer','Wordpress Developer'],
-    typeSpeed:100,
-    backSpeed:100,
-    delay:1000,
-    loop:true
-});
